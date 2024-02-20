@@ -112,7 +112,7 @@ const init = () => {
     let maxy = 20;
 
     point1.position.set(ax, by, 0);
-    let w = 1;
+    let w = 0;
     //頂点
     const geometryline = new THREE.BufferGeometry().setFromPoints(niji(0, ax, by, mxy));
     const line = new THREE.Line(geometryline, new THREE.LineBasicMaterial({ color: 0xFFFFFF }));
